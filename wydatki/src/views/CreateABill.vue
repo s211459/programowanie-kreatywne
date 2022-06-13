@@ -207,7 +207,7 @@ function exporttofirebase() {
 
       billdata["Title"] = bill.value;
 
-      billdata["Charge"] = debtUser;
+      billdata["Charge"] = debtUser.toFixed(2);
 
       billdata["Owner"] = user.email;
          
